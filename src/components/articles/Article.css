@@ -1,0 +1,87 @@
+.article-box {
+    border-radius: 8px;
+    border: 1px solid #C3C3C3;
+    box-shadow: 0 2px 7px 0 rgba(0,0,0 0.15);
+    padding: 15px;
+    display: inline-flex;
+    height: 70px;
+    width: 600px;
+    margin-top: 20px;
+    align-items: center;
+    position: relative;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.header {
+    display: inline-block;
+}
+
+.article-box__title {
+    font-size: 20px;
+    color: black;
+    margin-right: 20px;
+    text-align: left;
+    display: inline;
+}
+
+.thrash {
+    width: 20px;
+    height: 20px;
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+}
+
+.criar {
+    border: none;
+    border-radius: 8px;
+    width: 75px;
+    height: 30px;
+    background: #ADD8E6;   
+    display: block; 
+    margin-bottom: 5px;
+}
+
+.criar:hover {
+    border: none;
+    border-radius: 8px;
+    width: 75px;
+    height: 30px;
+    background: blue;  
+    color: white;
+    transition: 1s;
+}
+
+.article-box__url {
+    font-size: 14px;
+    color: gray;
+}
+
+.editar {
+    border: 1px solid blue;
+    border-radius: 8px;
+    width: 75px;
+    height: 30px;
+    background: none;
+}
+
+.editar:hover {
+    border: none;
+    border-radius: 8px;
+    width: 75px;
+    height: 30px;
+    background: blue;  
+    color: white;
+    transition: 1s;
+}
+
+.search {
+    width: 650px;
+    height: 42px;
+    border: 1px solid #ccc;
+    margin-bottom: px;
+    border-radius: 8px;
+}
